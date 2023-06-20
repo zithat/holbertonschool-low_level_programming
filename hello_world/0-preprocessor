@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Nombre del archivo C
+CFILE="main.c"
+
+# Archivo de salida (resultado preprocesado)
+output_file="c"
+
+# Ejecutar el preprocesador y guardar el resultado en el archivo de salida
+gcc -E "$CFILE" -o "$output_file"
