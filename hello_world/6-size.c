@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - Generates and  prints the size of various types on the computer
+ * return : Integer value 0
+ */
+
 
 int main()
     {
