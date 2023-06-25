@@ -3,9 +3,10 @@
 #include <time.h>
 
 /**
- * main - Entry point
+ * main - Entry point of the program
  *
- * Description: Assigns a random number to the variable n and prints the last digit.
+ * Description: Assigns a random number to the variable n and prints
+ *              the last digit of the number along with additional information.
  *
  * Return: Always 0 (Success)
  */
@@ -27,3 +28,4 @@ int main(void)
 
 	return (0);
 }
+
