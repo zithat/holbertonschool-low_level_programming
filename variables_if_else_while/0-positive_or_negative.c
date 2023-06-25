@@ -5,7 +5,8 @@
 /**
  * main - Entry point
  *
- * Description: Generates a random number and checks if it's positive, negative, or zero.
+ * Description: Generates a random number and
+ * checks if it's positive, negative, or zero.
  *
  * Return: Always 0 (Success)
  */
@@ -31,6 +32,6 @@ int main(void)
 		printf("%d is zero\n", n);
 	}
 
-	return 0;
+	return(0);
 }
 
