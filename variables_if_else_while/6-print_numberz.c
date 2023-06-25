@@ -1,20 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry point of the program
  *
- * Description: Prints all single digit numbers of base 10 starting from 0
- *              followed by a new line.
+ * Description: Prints all single digit numbers of base 10 using putchar.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i;
+	int digit = 0;
 
-	for (i = 0; i < 10; i++)
+	while (digit < 10)
 	{
-		putchar(i + '0');
+		putchar(digit + '0');
+		digit++;
 	}
 
 	putchar('\n');
